@@ -1,12 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('./font/css/clash-grotesk.css');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --background: black;
+    --text-primary: white;
+    --font-primary: 'ClashGrotesk-Regular', sans-serif;
+    --font-secondary: 'IBM Plex Mono', monospace;
+}
+[data-theme='light'] {
+    --background: #F5F2E3;
+    --text-primary: #121212;
+    --font-primary: 'ClashGrotesk-Regular', sans-serif;
+    --font-secondary: 'IBM Plex Mono', monospace;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-primary);
 }
 
 * {

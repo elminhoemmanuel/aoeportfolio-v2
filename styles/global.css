@@ -8,20 +8,27 @@
     --background: black;
     --text-primary: white;
     --font-primary: 'ClashGrotesk-Regular', sans-serif;
+    --font-primary-light: 'ClashGrotesk-Light', sans-serif;
     --font-secondary: 'IBM Plex Mono', monospace;
+    --border-primary: '#FFFFFF';
+    --border-primary-light: rgba(255, 255, 255, 0.3);
 }
 [data-theme='light'] {
     --background: #F5F2E3;
     --text-primary: #121212;
     --font-primary: 'ClashGrotesk-Regular', sans-serif;
+    --font-primary-light: 'ClashGrotesk-Light', sans-serif;
     --font-secondary: 'IBM Plex Mono', monospace;
+    --border-primary: '#121212';
+    --border-primary-light: rgba(18, 18, 18, 0.3);
 }
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: var(--font-primary);
+    padding: 0;
+    margin: 0px;
+    font-family: var(--font-primary-light);
+    height: 100%;
 }
 
 * {

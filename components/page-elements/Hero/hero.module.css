@@ -1,0 +1,34 @@
+.hero {
+    @apply sm:px-16 px-6;
+    @apply pt-10 pb-10;
+    @apply sm:mt-10 mt-0;
+    @apply lg:h-screen;
+}
+
+.text {
+    @apply sm:text-8xl text-6xl;
+    @apply font-bold;
+    @apply lg:mb-3 mb-0;
+}
+
+.pattern {
+    @apply sm:ml-3;
+    @apply inline;
+    @apply sm:w-56 w-32;
+    @apply sm:h-12 h-8;
+}
+
+.info {
+    @apply flex;
+    @apply items-center;
+    @apply mt-14 mb-8;
+    @apply text-base;
+}
+
+.infotext {
+    font-family: var(--font-secondary);
+}
+
+.star {
+    @apply ml-4;
+}

@@ -1,0 +1,29 @@
+.about {
+    @apply sm:px-16 px-6;
+    @apply pb-10;
+    @apply grid gap-12;
+    @apply sm:grid-cols-2 grid-cols-1;
+}
+
+.star {
+    @apply mt-5;
+}
+
+.skills {
+    @apply sm:h-96 h-auto;
+    @apply overflow-y-auto;
+    /* scrollbar-width: thin;
+    scrollbar-color: #90A4AE #CFD8DC; */
+}
+
+.skills::-webkit-scrollbar {
+    width: 7px;
+}
+
+.skills::-webkit-scrollbar-track {
+    display: none;
+}
+
+.skills::-webkit-scrollbar-thumb {
+    display: none;  
+}

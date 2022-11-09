@@ -1,5 +1,12 @@
 .container {
     color: var(--text-primary);
     background-color: var(--background);
+    @apply 2xl:max-w-screen-2xl;
+    @apply 2xl:mx-auto;
+    @apply w-full;
+    @apply text-base;
+    @apply relative;
+    @apply h-full;
+    @apply text-2xl;
 }
 

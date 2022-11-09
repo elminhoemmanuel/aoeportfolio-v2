@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { useState, useEffect } from 'react';
 import css from '@/styles/home.module.css';
 import TopNavbar from '@/components/page-elements/TopNavbar';
+import Hero from '@/components/page-elements/Hero';
+import About from '@/components/page-elements/About';
 
 export default function Home() {
     const [theme, setTheme] = useState<string | null>("dark");
@@ -14,7 +16,7 @@ export default function Home() {
 
     useEffect(() => {
         const existingTheme = localStorage.getItem("theme");
-        setTheme(existingTheme);
+        setTheme(existingTheme ? existingTheme : "dark");
     }, [])
 
     return (
@@ -24,9 +26,10 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div data-theme={theme} onClick={toggleTheme} className={css.container}>
-                <TopNavbar />
-                Hello John
+            <div data-theme={theme} className={css.container}>
+                <TopNavbar theme={theme} toggleTheme={toggleTheme} />
+                <Hero theme={theme} />
+                <About theme={theme} />
             </div>
 
         </div>

@@ -1,0 +1,7 @@
+.header {
+    @apply py-3;
+    @apply border-t border-solid;
+    @apply text-base;
+    border-color: var(--border-primary);
+    font-family: var(--font-secondary);
+}

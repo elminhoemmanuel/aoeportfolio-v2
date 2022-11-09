@@ -1,0 +1,16 @@
+.nav {
+    @apply flex;
+    @apply items-center;
+    @apply justify-between;
+    @apply sm:px-16 px-6;
+    @apply py-5;
+}
+
+.logo {
+    font-family: var(--font-secondary);
+    @apply text-base;
+}
+
+.themeSwitch {
+    @apply focus:outline-none;
+}

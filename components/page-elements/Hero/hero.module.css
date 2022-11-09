@@ -1,7 +1,7 @@
 .hero {
     @apply sm:px-16 px-6;
-    @apply pt-10 pb-10;
-    @apply sm:mt-10 mt-0;
+    @apply sm:pt-10 pb-10;
+    @apply sm:mt-16 mt-0;
     @apply lg:h-screen;
 }
 
@@ -21,7 +21,7 @@
 .info {
     @apply flex;
     @apply items-center;
-    @apply mt-14 mb-8;
+    @apply sm:mt-14 mt-7 mb-8;
     @apply text-base;
 }
 

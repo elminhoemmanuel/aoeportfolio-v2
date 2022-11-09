@@ -12,6 +12,8 @@
     --font-secondary: 'IBM Plex Mono', monospace;
     --border-primary: '#FFFFFF';
     --border-primary-light: rgba(255, 255, 255, 0.3);
+    --navbarbg: "white";
+    --navbarText: "black";
 }
 [data-theme='light'] {
     --background: #F5F2E3;
@@ -21,6 +23,8 @@
     --font-secondary: 'IBM Plex Mono', monospace;
     --border-primary: '#121212';
     --border-primary-light: rgba(18, 18, 18, 0.3);
+    --navbarbg: "black";
+    --navbarText: "white";
 }
 
 html,

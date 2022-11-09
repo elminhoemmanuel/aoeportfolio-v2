@@ -1,0 +1,57 @@
+.navHolder {
+    @apply fixed;
+    @apply bottom-16;
+    @apply w-full;
+    @apply flex;
+    @apply items-center;
+    @apply justify-center;
+}
+
+.navbar {
+    @apply flex;
+    @apply justify-between;
+    @apply gap-1;
+    @apply p-1;
+    @apply border;
+    @apply sm:w-2/5 w-11/12;
+    @apply rounded-full;
+    border-color: var(--border-primary);
+}
+
+.navItemBlack {
+    @apply sm:text-lg text-sm;
+    @apply font-extrabold;
+    @apply sm:py-3 py-2 sm:px-6 px-3;
+    @apply block;
+    @apply rounded-full;
+    @apply hover:bg-white hover:text-black;
+}
+
+.navItemActiveBlack {
+    @apply sm:text-lg text-sm;
+    @apply font-extrabold;
+    @apply sm:py-3 py-2 sm:px-6 px-3;
+    @apply block;
+    @apply rounded-full;
+    @apply bg-white;
+    @apply text-black;
+}
+
+.navItemWhite {
+    @apply sm:text-lg text-sm;
+    @apply font-extrabold;
+    @apply sm:py-3 py-2 sm:px-6 px-3;
+    @apply block;
+    @apply rounded-full;
+    @apply hover:bg-black hover:text-white;
+}
+
+.navItemActiveWhite {
+    @apply sm:text-lg text-sm;
+    @apply font-extrabold;
+    @apply sm:py-3 py-2 sm:px-6 px-3;
+    @apply block;
+    @apply rounded-full;
+    @apply bg-black;
+    @apply text-white
+}

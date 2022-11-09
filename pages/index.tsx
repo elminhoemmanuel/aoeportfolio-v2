@@ -4,6 +4,7 @@ import css from '@/styles/home.module.css';
 import TopNavbar from '@/components/page-elements/TopNavbar';
 import Hero from '@/components/page-elements/Hero';
 import About from '@/components/page-elements/About';
+import Navbar from '@/components/page-elements/Navbar';
 
 export default function Home() {
     const [theme, setTheme] = useState<string | null>("dark");
@@ -27,6 +28,7 @@ export default function Home() {
             </Head>
 
             <div data-theme={theme} className={css.container}>
+                <Navbar theme={theme} />
                 <TopNavbar theme={theme} toggleTheme={toggleTheme} />
                 <Hero theme={theme} />
                 <About theme={theme} />

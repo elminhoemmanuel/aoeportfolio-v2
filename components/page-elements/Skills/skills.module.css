@@ -1,0 +1,58 @@
+.skills {
+    @apply sm:h-96 h-auto;
+    @apply overflow-y-auto;
+    /* scrollbar-width: thin;
+    scrollbar-color: #90A4AE #CFD8DC; */
+}
+
+.skills::-webkit-scrollbar {
+    width: 7px;
+}
+
+.skills::-webkit-scrollbar-track {
+    display: none;
+}
+
+.skills::-webkit-scrollbar-thumb {
+    display: none;  
+}
+
+.skills > div {
+    @apply mb-12;
+}
+
+.tech {
+    @apply mb-2;
+}
+
+.experience {
+    @apply flex;
+    @apply items-end;
+    @apply justify-between;
+    @apply py-3;
+    @apply border-b last:border-0;
+    border-color: var(--border-primary-light);
+}
+
+.location {
+    @apply text-gray-300;
+}
+
+.duration {
+    @apply text-sm;
+}
+
+.btn {
+    @apply flex;
+    @apply items-center;
+    @apply justify-between;
+}
+
+.btnText {
+    @apply text-sm;
+    @apply font-bold;
+}
+
+.downArrow {
+    @apply h-6;
+}

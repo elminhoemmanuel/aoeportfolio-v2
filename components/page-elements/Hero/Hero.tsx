@@ -11,7 +11,7 @@ const Hero = ({ theme }: Props) => {
         <div className={css.hero}>
             <h1 className={css.text}>Frontend engineer,</h1>
             <h1 className={css.text}>obsessed with building</h1>
-            <h1 className={css.text}>web applications <img className={css.pattern} src="/images/pattern.png" alt="pattern" /></h1>
+            <h1 className={css.text}>cool web apps <img className={css.pattern} src="/images/pattern.png" alt="pattern" /></h1>
 
             <div className={css.info}>
                 <p className={css.infotext}>Scroll down to learn more and<br/> view selected projects</p>

@@ -1,0 +1,30 @@
+.contact {
+    @apply sm:px-16 px-6;
+    @apply py-20;
+    @apply grid gap-16;
+    @apply sm:grid-cols-2 grid-cols-1;
+    font-family: var(--font-primary-bold);
+}
+
+.question {
+    @apply text-gray-400;
+    @apply text-3xl;
+    @apply font-extrabold;
+}
+
+.email {
+    @apply lg:text-5xl text-3xl;
+    @apply font-extrabold;
+}
+
+.pattern {
+    @apply sm:w-56 w-32;
+    @apply sm:h-12 h-8;
+    @apply mt-5;
+}
+
+.socialLink {
+    @apply mb-3;
+    @apply block;
+    font-family: var(--font-primary);
+}

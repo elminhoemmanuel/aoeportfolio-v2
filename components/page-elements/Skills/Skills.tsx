@@ -1,8 +1,9 @@
 import SectionHeader from '@/components/common/SectionHeader';
 import { experiences, resumeLink, technologies } from '../../../data';
-import React from 'react'
-import css from './skills.module.css'
+import React from 'react';
+import css from './skills.module.css';
 import Button from '@/components/common/Button';
+import { BsArrowUpRight } from 'react-icons/bs';
 import Link from 'next/link';
 
 const Skills = () => {
@@ -32,10 +33,10 @@ const Skills = () => {
                 </div>
             </div>
             <Button>
-                <Link target="_blank" href={resumeLink}>
-                    <a className={css.btn}>
+                <Link href={resumeLink}>
+                    <a target="_blank" className={css.btn}>
                         <p className={css.btnText}>DOWNLOAD RESUME</p>
-                        <img className={css.downloadArrow} src="/images/downarrow.svg" alt='download arrow icon' />
+                        <BsArrowUpRight className={css.downArrow} />
                     </a>
                 </Link>
             </Button>

@@ -31,3 +31,21 @@ export const experiences = [
 ]
 
 export const resumeLink = "https://drive.google.com/file/d/1h3dcjhGWmq9V2Iw1Hei6X2uPzsPyvxy5/view?usp=sharing"
+
+export const socials = [
+    {
+        id: 1,
+        name: "Github",
+        link: "https://github.com/elminhoemmanuel"
+    },
+    {
+        id: 2,
+        name: "LinkedIn",
+        link: "https://www.linkedin.com/in/amodu/"
+    },
+    {
+        id: 3,
+        name: "Twitter",
+        link: "https://twitter.com/elminhoemmanuel"
+    },
+]

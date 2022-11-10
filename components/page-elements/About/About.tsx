@@ -10,7 +10,7 @@ type Props = {
 const About = ({ theme }: Props) => {
     const getStarUrl = () => theme === "dark" ? "whitestar" : "blackstar"
     return (
-        <div className={css.about}>
+        <div id='About' className={css.about}>
             <div className={css.text}>
                 <p>
                     {about.topText}<br /><br />

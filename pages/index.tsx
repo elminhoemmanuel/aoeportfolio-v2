@@ -5,6 +5,8 @@ import TopNavbar from '@/components/page-elements/TopNavbar';
 import Hero from '@/components/page-elements/Hero';
 import About from '@/components/page-elements/About';
 import Navbar from '@/components/page-elements/Navbar';
+import Contact from '@/components/page-elements/Contact';
+import Footer from '@/components/page-elements/Footer';
 
 export default function Home() {
     const [theme, setTheme] = useState<string | null>("dark");
@@ -32,6 +34,8 @@ export default function Home() {
                 <TopNavbar theme={theme} toggleTheme={toggleTheme} />
                 <Hero theme={theme} />
                 <About theme={theme} />
+                <Contact />
+                <Footer />
             </div>
 
         </div>

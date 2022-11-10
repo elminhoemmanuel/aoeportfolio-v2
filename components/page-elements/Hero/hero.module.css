@@ -9,6 +9,7 @@
     @apply sm:text-8xl text-6xl;
     @apply font-bold;
     @apply lg:mb-3 mb-0;
+    font-family: var(--font-primary-bold);
 }
 
 .pattern {

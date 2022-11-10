@@ -35,7 +35,7 @@
 }
 
 .location {
-    @apply text-gray-300;
+    @apply text-gray-400;
 }
 
 .duration {
@@ -54,5 +54,5 @@
 }
 
 .downArrow {
-    @apply h-6;
+    @apply h-5 w-5;
 }

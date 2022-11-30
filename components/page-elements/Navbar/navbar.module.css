@@ -15,7 +15,7 @@
     @apply border;
     @apply sm:w-2/5 w-11/12;
     @apply rounded-full;
-    border-color: var(--border-primary);
+    @apply bg-white border-white;
 }
 
 .navbarWhite {
@@ -30,12 +30,12 @@
 }
 
 .navItemBlack {
-    @apply sm:text-lg text-sm;
+    @apply sm:text-lg text-sm text-portblack;
     @apply font-extrabold;
     @apply sm:py-3 py-2 sm:px-6 px-3;
     @apply block;
     @apply rounded-full;
-    @apply hover:bg-white hover:text-black;
+    @apply hover:bg-portblack hover:text-white;
 }
 
 .navItemActiveBlack {
@@ -44,8 +44,8 @@
     @apply sm:py-3 py-2 sm:px-6 px-3;
     @apply block;
     @apply rounded-full;
-    @apply bg-white;
-    @apply text-black;
+    @apply bg-portblack;
+    @apply text-white;
 }
 
 .navItemWhite {
@@ -54,7 +54,7 @@
     @apply sm:py-3 py-2 sm:px-6 px-3;
     @apply block;
     @apply rounded-full;
-    @apply hover:bg-white hover:text-portblack;
+    @apply hover:bg-portnude hover:text-portblack;
 }
 
 .navItemActiveWhite {
@@ -63,6 +63,6 @@
     @apply sm:py-3 py-2 sm:px-6 px-3;
     @apply block;
     @apply rounded-full;
-    @apply bg-white;
+    @apply bg-portnude;
     @apply text-portblack;
 }

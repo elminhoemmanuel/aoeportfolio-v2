@@ -6,7 +6,8 @@ module.exports = {
 
         extend: {
             colors: {
-                portblack: "#121212"
+                portblack: "#121212",
+                portnude: "#F4F2E2",
             }
         },
 

@@ -6,9 +6,7 @@ module.exports = {
 
         extend: {
             colors: {
-                abnbgrey: "#222222",
-                abnbtextblack: "#C1C1C1",
-                abnbpink: "#FF385C",
+                portblack: "#121212"
             }
         },
 

@@ -7,7 +7,7 @@
     @apply justify-center;
 }
 
-.navbar {
+.navbarBlack {
     @apply flex;
     @apply justify-between;
     @apply gap-1;
@@ -16,6 +16,17 @@
     @apply sm:w-2/5 w-11/12;
     @apply rounded-full;
     border-color: var(--border-primary);
+}
+
+.navbarWhite {
+    @apply flex;
+    @apply justify-between;
+    @apply gap-1;
+    @apply p-1;
+    @apply border;
+    @apply sm:w-2/5 w-11/12;
+    @apply rounded-full;
+    @apply bg-portblack border-portblack;
 }
 
 .navItemBlack {
@@ -38,12 +49,12 @@
 }
 
 .navItemWhite {
-    @apply sm:text-lg text-sm;
+    @apply sm:text-lg text-sm text-white;
     @apply font-extrabold;
     @apply sm:py-3 py-2 sm:px-6 px-3;
     @apply block;
     @apply rounded-full;
-    @apply hover:bg-black hover:text-white;
+    @apply hover:bg-white hover:text-portblack;
 }
 
 .navItemActiveWhite {
@@ -52,6 +63,6 @@
     @apply sm:py-3 py-2 sm:px-6 px-3;
     @apply block;
     @apply rounded-full;
-    @apply bg-black;
-    @apply text-white
+    @apply bg-white;
+    @apply text-portblack;
 }

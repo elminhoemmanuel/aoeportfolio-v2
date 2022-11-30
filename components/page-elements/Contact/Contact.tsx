@@ -9,12 +9,12 @@ const Contact = () => {
         <div id='Contact' className={css.contact}>
             <div>
                 <p className={css.question}>Got a project in mind?</p>
-                <p className={css.email}>You can reach out to me at <Link href="mailto:amodue15@gmail.com"><a target="_blank">amodue15@gmail.com</a></Link></p>
+                <p className={css.email}>You can reach out to me at <Link href="mailto:amodue15@gmail.com"><a className={css.emailLink} target="_blank">amodue15@gmail.com</a></Link></p>
                 <img className={css.pattern} src="/images/pattern2.png" alt="pattern 2" />
             </div>
 
             <div>
-                <SectionHeader text='Socials' />
+                <SectionHeader hasLine text='Socials' />
                 <div>
                     {
                         socials.map((item)=>(

@@ -1,8 +1,6 @@
 .skills {
-    @apply sm:h-96 h-auto;
+    @apply sm:h-96 lg:h-64 h-64;
     @apply overflow-y-auto;
-    /* scrollbar-width: thin;
-    scrollbar-color: #90A4AE #CFD8DC; */
 }
 
 .skills::-webkit-scrollbar {

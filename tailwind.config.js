@@ -12,11 +12,14 @@ module.exports = {
         },
 
         screens: {
+            'xs': '500px',
+            // => @media (min-width: 640px) { ... }
+
             'sm': '640px',
             // => @media (min-width: 640px) { ... }
 
             'md': '769px',
-            // => @media (min-width: 768px) { ... }
+            // => @media (min-width: 769px) { ... }
 
             'lg': '1025px',
             // => @media (min-width: 1024px) { ... }

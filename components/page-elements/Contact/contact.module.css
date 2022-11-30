@@ -24,7 +24,11 @@
 }
 
 .socialLink {
-    @apply mb-3;
+    @apply mb-3 underline;
     @apply block;
     font-family: var(--font-primary);
+}
+
+.emailLink {
+    @apply underline;
 }

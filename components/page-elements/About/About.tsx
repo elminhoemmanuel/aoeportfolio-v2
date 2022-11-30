@@ -12,10 +12,8 @@ const About = ({ theme }: Props) => {
     return (
         <div id='About' className={css.about}>
             <div className={css.text}>
-                <p>
-                    {about.topText}<br /><br />
-                    {about.bottomText}
-                </p>
+                <p className={css.topText}>{about.topText}</p>
+                <p>{about.bottomText}</p>
                 <img className={css.star} src={`/images/${getStarUrl()}.svg`} alt="star icon" />
             </div>
 

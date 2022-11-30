@@ -10,7 +10,7 @@ const Skills = () => {
     return (
         <div className={css.skills}>
             <div>
-                <SectionHeader text='Skillset' />
+                <SectionHeader hasLine text='Skillset' />
                 <div>
                     {
                         technologies.map((item) => (
@@ -20,7 +20,7 @@ const Skills = () => {
                 </div>
             </div>
             <div>
-                <SectionHeader text='Work Experience' />
+                <SectionHeader hasLine text='Work Experience' />
                 <div>
                     {
                         experiences.map((item) => (

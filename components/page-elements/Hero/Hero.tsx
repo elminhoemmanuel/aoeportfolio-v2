@@ -1,3 +1,4 @@
+import SectionHeader from '@/components/common/SectionHeader';
 import React from 'react'
 import css from './hero.module.css'
 

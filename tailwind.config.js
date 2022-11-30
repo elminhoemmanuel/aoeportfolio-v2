@@ -6,9 +6,8 @@ module.exports = {
 
         extend: {
             colors: {
-                abnbgrey: "#222222",
-                abnbtextblack: "#C1C1C1",
-                abnbpink: "#FF385C",
+                portblack: "#121212",
+                portnude: "#F4F2E2",
             }
         },
 
@@ -16,7 +15,7 @@ module.exports = {
             'sm': '640px',
             // => @media (min-width: 640px) { ... }
 
-            'md': '768px',
+            'md': '769px',
             // => @media (min-width: 768px) { ... }
 
             'lg': '1025px',

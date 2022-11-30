@@ -14,7 +14,7 @@ const Contact = () => {
             </div>
 
             <div>
-                <SectionHeader text='Socials' />
+                <SectionHeader hasLine text='Socials' />
                 <div>
                     {
                         socials.map((item)=>(

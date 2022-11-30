@@ -1,12 +1,12 @@
 .hero {
     @apply sm:px-16 px-6;
     @apply sm:pt-10 pb-10;
-    @apply sm:mt-16 mt-0;
+    @apply sm:mt-16 mt-10;
     @apply lg:h-screen;
 }
 
 .text {
-    @apply sm:text-8xl text-6xl;
+    @apply sm:text-7xl lg:text-8xl text-3xl;
     @apply font-bold;
     @apply lg:mb-3 mb-0;
     font-family: var(--font-primary-bold);
@@ -15,8 +15,8 @@
 .pattern {
     @apply sm:ml-3;
     @apply inline;
-    @apply sm:w-56 w-32;
-    @apply sm:h-12 h-8;
+    @apply md:w-56 w-32;
+    @apply md:h-12 h-8;
 }
 
 .info {

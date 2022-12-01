@@ -8,6 +8,8 @@ module.exports = {
             colors: {
                 portblack: "#121212",
                 portnude: "#F4F2E2",
+                cardbgblack: "#1A1A1A",
+                cardbgwhite: "#EFEFE1",
             }
         },
 

@@ -11,15 +11,14 @@ type CardProps = {
     liveUrl: string;
     codeUrl: string;
     pattern: string;
-    hasCode: boolean;
 }
 
 type WorkCardProps = {
     data: CardProps;
 }
 
-const WorkCard = ({data}: WorkCardProps) => {
-    const { id, title, tech, brief, liveUrl, codeUrl, pattern, hasCode } = data;
+const WorkCard = ({ data }: WorkCardProps) => {
+    const { id, title, tech, brief, liveUrl, codeUrl, pattern } = data;
     return (
         <div>
             <div className={css.card}>
@@ -27,14 +26,16 @@ const WorkCard = ({data}: WorkCardProps) => {
                 <p className={css.tech}>{tech}</p>
                 <p className={css.brief}>{brief}</p>
                 <div className={css.links}>
-                    <Link href={liveUrl}>
-                        <a target="_blank" className={css.liveLink}>
-                            <IoIosGlobe className={css.icon} />
-                            <p>Visit Live site</p>
-                        </a>
-                    </Link>
                     {
-                        hasCode ? <Link href={codeUrl}>
+                        liveUrl ? <Link href={liveUrl}>
+                            <a target="_blank" className={css.liveLink}>
+                                <IoIosGlobe className={css.icon} />
+                                <p>Visit Live site</p>
+                            </a>
+                        </Link> : ''
+                    }
+                    {
+                        codeUrl ? <Link href={codeUrl}>
                             <a target="_blank" className={css.codeLink}>
                                 <IoIosGitBranch className={css.icon} />
                                 <p>Code</p>

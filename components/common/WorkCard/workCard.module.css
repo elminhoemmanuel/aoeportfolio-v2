@@ -1,0 +1,49 @@
+.card{
+    @apply px-5 pt-32 pb-5;
+    @apply h-auto sm:h-80;
+    background: var(--cardbg);
+}
+
+.title {
+    @apply text-3xl;
+    font-family: var(--font-primary-bold);
+}
+
+.tech {
+    @apply text-base;
+    @apply mb-6;
+}
+
+.brief {
+    @apply text-base h-auto sm:h-8;
+    @apply mb-6;
+}
+
+.links {
+    @apply flex items-center;
+}
+
+.liveLink {
+    @apply flex items-center mr-4;
+}
+
+.liveLink > p, .codeLink > p {
+    @apply text-sm;
+}
+
+.codeLink {
+    @apply flex items-center;
+}
+
+.pattern {
+    @apply h-1.5;
+}
+
+.pattern > img {
+    @apply h-full w-full block;
+}
+
+.icon {
+    @apply block mr-1 w-4 h-4;
+    
+}

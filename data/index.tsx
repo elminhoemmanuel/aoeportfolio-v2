@@ -49,3 +49,26 @@ export const socials = [
         link: "https://twitter.com/elminhoemmanuel"
     },
 ]
+
+export const works = [
+    {
+        id: 1,
+        title: "Bundle",
+        tech: "NEXT.JS + TYPESCRIPT + WEB3",
+        brief: "Social payments web app for Cash and Crypto",
+        liveUrl: "https://www.bundle.africa/",
+        codeUrl: "",
+        pattern: "workpattern1",
+        hasCode: false,
+    },
+    {
+        id: 2,
+        title: "iRecharge.ng",
+        tech: "React + NEXT.JS + Material UI",
+        brief: "Utility bills payment web app",
+        liveUrl: "https://www.irecharge.ng/",
+        codeUrl: "",
+        pattern: "workpattern2",
+        hasCode: false,
+    },
+]

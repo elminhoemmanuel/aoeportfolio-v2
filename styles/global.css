@@ -13,11 +13,12 @@
     --font-secondary: 'IBM Plex Mono', monospace;
     --border-primary: '#FFFFFF';
     --border-primary-light: rgba(255, 255, 255, 0.3);
-    --navbarbg: "white";
-    --navbarText: "black";
+    --navbarbg: white;
+    --navbarText: black;
+    --cardbg: #1A1A1A;
 }
 [data-theme='light'] {
-    --background: #F5F2E3;
+    --background: #F4F4EB;
     --text-primary: #121212;
     --font-primary: 'ClashGrotesk-Regular', sans-serif;
     --font-primary-light: 'ClashGrotesk-Light', sans-serif;
@@ -25,8 +26,9 @@
     --font-secondary: 'IBM Plex Mono', monospace;
     --border-primary: '#121212';
     --border-primary-light: rgba(18, 18, 18, 0.3);
-    --navbarbg: "black";
-    --navbarText: "white";
+    --navbarbg: black;
+    --navbarText: white;
+    --cardbg: #eaeadc;
 }
 
 html,

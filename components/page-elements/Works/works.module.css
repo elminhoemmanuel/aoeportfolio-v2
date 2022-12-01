@@ -1,0 +1,9 @@
+.worksContainer {
+    @apply sm:px-16 px-6;
+    @apply pt-28 pb-32;
+}
+
+.works {
+    @apply grid gap-16;
+    @apply sm:grid-cols-2 grid-cols-1;
+}

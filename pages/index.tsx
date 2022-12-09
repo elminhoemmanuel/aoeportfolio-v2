@@ -28,6 +28,11 @@ export default function Home() {
             <Head>
                 <title>aguythatcodes | Frontend Developer</title>
                 <link rel="icon" href="/favicon.ico" />
+                <meta name="description" content={'Frontend developer obsessed with building cool web apps using React.js'} />
+                <meta property="og:description" content={'Frontend developer obsessed with building cool web apps using React.js'} />
+                <meta name="twitter:description" content={'Frontend developer obsessed with building cool web apps using React.js'} />
+                <meta property="og:image" content={`/images/preview.png`} />
+                <meta name="twitter:image" content={`/images/preview.png`} />
             </Head>
 
             <div data-theme={theme} className={css.container}>
